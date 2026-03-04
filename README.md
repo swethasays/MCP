@@ -101,11 +101,13 @@ Edit the `mcp_server.py` file to add new documents to the `docs` dictionary.
 
 ### Implementing MCP Features
 
-To fully implement the MCP features:
+The MCP features are implemented in the following files:
+1. `mcp_server.py` – defines the MCP server, commands, and document resources.
+2. `mcp_client.py` – handles the client-side communication with the MCP server.
 
-1. Complete the TODOs in `mcp_server.py`
-2. Implement the missing functionality in `mcp_client.py`
+You can extend the system by:
+- Adding new commands to the MCP server
+- Adding additional documents for retrieval
+- Integrating new tools or external APIs
+- Expanding client functionality
 
-### Linting and Typing Check
-
-There are no lint or type checks implemented.
